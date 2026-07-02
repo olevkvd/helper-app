@@ -1,8 +1,45 @@
 {
   "users": [
-    { "pin": "1111", "name": "Данііл", "roleName": "Старший сендвіч", "roleId": 0 },
-    { "pin": "2222", "name": "Вова", "roleName": "Сендвіч-мейкер", "roleId": 0 },
-    { "pin": "3333", "name": "Ростислав", "roleName": "Сендвіч-мейкер", "roleId": 0 },
-    { "pin": "4444", "name": "Міша", "roleName": "Сендвіч-мейкер", "roleId": 0 }
+    { 
+      "pin": "1111", 
+      "id": "001",
+      "name": "Данііл", 
+      "roleName": "Старший сендвіч", 
+      "roleId": 0,
+      "employmentDate": "15.05.2023",
+      "barcode": "111122223333",
+      "baseRate": 100.0
+    },
+    { 
+      "pin": "2222", 
+      "id": "002",
+      "name": "Вова", 
+      "roleName": "Сендвіч-мейкер", 
+      "roleId": 0,
+      "employmentDate": "01.02.2024",
+      "barcode": "444455556666",
+      "baseRate": 100.0
+    },
+    { 
+      "pin": "3333", 
+      "id": "003",
+      "name": "Данііл", 
+      "roleName": "Старший сендвіч", 
+      "roleId": 0,
+      "employmentDate": "15.05.2023",
+      "barcode": "111122223333",
+      "baseRate": 100.0
+    },
+    { 
+      "pin": "4444", 
+      "id": "004",
+      "name": "Вова", 
+      "roleName": "Сендвіч-мейкер", 
+      "roleId": 0,
+      "employmentDate": "01.02.2024",
+      "barcode": "444455556666",
+      "baseRate": 100.0
+    }
   ]
 }
+
