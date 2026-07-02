@@ -21,23 +21,23 @@
       "baseRate": 100.0
     },
     { 
-      "pin": "3333", 
+      "pin": "Vfq,enysqKexibqCtyldsx", 
       "id": "003",
-      "name": "Данііл", 
-      "roleName": "Старший сендвіч", 
+      "name": "Ростислав", 
+      "roleName": "Сендвіч-мейкер", 
       "roleId": 0,
-      "employmentDate": "15.05.2023",
-      "barcode": "111122223333",
+      "employmentDate": "11.05.2026",
+      "barcode": "3976702831",
       "baseRate": 100.0
     },
     { 
-      "pin": "4444", 
+      "pin": "NbyxfcjdbqCtyldsx", 
       "id": "004",
-      "name": "Вова", 
+      "name": "Міша", 
       "roleName": "Сендвіч-мейкер", 
       "roleId": 0,
-      "employmentDate": "01.02.2024",
-      "barcode": "444455556666",
+      "employmentDate": "24.06.2026",
+      "barcode": "3973910877",
       "baseRate": 100.0
     }
   ]
