@@ -5,7 +5,7 @@
       "id": "001",
       "name": "Данііл", 
       "roleName": "Старший сендвіч", 
-      "roleId": 0,
+      "roleId": 1,
       "employmentDate": "15.05.2023",
       "barcode": "111122223333",
       "baseRate": 100.0
@@ -15,7 +15,7 @@
       "id": "002",
       "name": "Вова", 
       "roleName": "Сендвіч-мейкер", 
-      "roleId": 0,
+      "roleId": 2,
       "employmentDate": "01.02.2024",
       "barcode": "444455556666",
       "baseRate": 100.0
@@ -25,7 +25,7 @@
       "id": "003",
       "name": "Ростислав", 
       "roleName": "Сендвіч-мейкер", 
-      "roleId": 0,
+      "roleId": 2,
       "employmentDate": "11.05.2026",
       "barcode": "3976702831",
       "baseRate": 100.0
@@ -35,7 +35,7 @@
       "id": "004",
       "name": "Міша", 
       "roleName": "Сендвіч-мейкер", 
-      "roleId": 0,
+      "roleId": 2,
       "employmentDate": "24.06.2026",
       "barcode": "3973910877",
       "baseRate": 100.0
