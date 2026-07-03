@@ -1,13 +1,13 @@
 {
   "users": [
     { 
-      "pin": "1111", 
+      "pin": "YfqrhfobqCtyldsxNfUfhybqLheu", 
       "id": "001",
       "name": "Данііл", 
       "roleName": "Старший сендвіч", 
       "roleId": 1,
       "employmentDate": "01.09.2025",
-      "barcode": "111122223333",
+      "barcode": "3834805672",
       "baseRate": 100.0
     },
     { 
