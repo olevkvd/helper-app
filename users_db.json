@@ -39,6 +39,26 @@
       "employmentDate": "24.06.2026",
       "barcode": "3973910877",
       "baseRate": 100.0
+    },
+    { 
+      "pin": "5555", 
+      "id": "005",
+      "name": "Соня", 
+      "roleName": "Кухар", 
+      "roleId": 3,
+      "employmentDate": "10.08.2023",
+      "barcode": "777788889999",
+      "baseRate": 100.0
+    },
+    { 
+      "pin": "9999", 
+      "id": "006",
+      "name": "Олег", 
+      "roleName": "Кухар", 
+      "roleId": 4,
+      "employmentDate": "01.01.2020",
+      "barcode": "000000000000",
+      "baseRate": 100.0
     }
   ]
 }
