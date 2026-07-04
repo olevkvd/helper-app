@@ -11,13 +11,13 @@
       "baseRate": 100.0
     },
     { 
-      "pin": "2222", 
+      "pin": "Ytvyjuj<sctYjNfKflyj", 
       "id": "002",
       "name": "Вова", 
       "roleName": "Сендвіч-мейкер", 
       "roleId": 2,
-      "employmentDate": "01.02.2024",
-      "barcode": "444455556666",
+      "employmentDate": "",
+      "barcode": "",
       "baseRate": 100.0
     },
     { 
@@ -41,13 +41,13 @@
       "baseRate": 100.0
     },
     { 
-      "pin": "5555", 
+      "pin": "YtgjufybqGjdfhtyjr", 
       "id": "005",
       "name": "Соня", 
       "roleName": "Кухар", 
       "roleId": 3,
-      "employmentDate": "10.08.2023",
-      "barcode": "777788889999",
+      "employmentDate": "",
+      "barcode": "",
       "baseRate": 100.0
     },
     { 
@@ -61,43 +61,43 @@
       "baseRate": 100.0
     },
     { 
-      "pin": "nika_pin_123", 
+      "pin": "XthtpXehTvjwbjyfkmybqRfcbh", 
       "id": "007",
       "name": "Ніка", 
       "roleName": "Старший касир", 
       "roleId": 5,
-      "employmentDate": "15.01.2021",
-      "barcode": "1111111111",
+      "employmentDate": "01.09.2025",
+      "barcode": "",
       "baseRate": 100.0
     },
     { 
-      "pin": "sasha_pin_456", 
+      "pin": "FGjlcvfnhbdfnmYtkmpzCfif", 
       "id": "008",
       "name": "Саша", 
       "roleName": "Касир", 
       "roleId": 5,
-      "employmentDate": "01.06.2023",
-      "barcode": "2222222222",
+      "employmentDate": "",
+      "barcode": "",
       "baseRate": 100.0
     },
     { 
-      "pin": "mykola_pin_789", 
+      "pin": "RjkzLtqcnde'iJxtymGhtlcrfpe'vj", 
       "id": "009",
       "name": "Микола", 
       "roleName": "Касир", 
       "roleId": 5,
-      "employmentDate": "10.10.2023",
-      "barcode": "3333333333",
+      "employmentDate": "",
+      "barcode": "",
       "baseRate": 100.0
     },
     { 
-      "pin": "sofa_admin_pin", 
+      "pin": "CfvbqKexibqFlvsySYfqufhysifLsdxbyfECdsns", 
       "id": "010",
       "name": "Софа", 
       "roleName": "Адміністратор", 
       "roleId": 0,
-      "employmentDate": "01.01.2020",
-      "barcode": "4444444444",
+      "employmentDate": "",
+      "barcode": "",
       "baseRate": 140.0
     }
   ]
