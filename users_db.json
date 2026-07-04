@@ -89,6 +89,16 @@
       "employmentDate": "10.10.2023",
       "barcode": "3333333333",
       "baseRate": 100.0
+    },
+    { 
+      "pin": "sofa_admin_pin", 
+      "id": "010",
+      "name": "Софа", 
+      "roleName": "Адміністратор", 
+      "roleId": 0,
+      "employmentDate": "01.01.2020",
+      "barcode": "4444444444",
+      "baseRate": 140.0
     }
   ]
 }
