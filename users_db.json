@@ -59,6 +59,36 @@
       "employmentDate": "01.09.2025",
       "barcode": "3692700419",
       "baseRate": 100.0
+    },
+    { 
+      "pin": "nika_pin_123", 
+      "id": "007",
+      "name": "Ніка", 
+      "roleName": "Старший касир", 
+      "roleId": 5,
+      "employmentDate": "15.01.2021",
+      "barcode": "1111111111",
+      "baseRate": 100.0
+    },
+    { 
+      "pin": "sasha_pin_456", 
+      "id": "008",
+      "name": "Саша", 
+      "roleName": "Касир", 
+      "roleId": 5,
+      "employmentDate": "01.06.2023",
+      "barcode": "2222222222",
+      "baseRate": 100.0
+    },
+    { 
+      "pin": "mykola_pin_789", 
+      "id": "009",
+      "name": "Микола", 
+      "roleName": "Касир", 
+      "roleId": 5,
+      "employmentDate": "10.10.2023",
+      "barcode": "3333333333",
+      "baseRate": 100.0
     }
   ]
 }
