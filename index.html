@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Helper">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | Helper</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -65,7 +73,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Axio",
         productName: "Helper",
-        productVersion: "9.3",
+        productVersion: "9.4",
         showBanner: unityShowBanner,
       };
 
@@ -94,6 +102,37 @@
         document.getElementsByTagName('head')[0].appendChild(meta);
         container.className = "unity-mobile";
         canvas.className = "unity-mobile";
+
+        // ДОДАНИЙ КОД ДЛЯ ANDROID: Невидимий оверлей для 100% активації повноекранного режиму
+        if (/Android/i.test(navigator.userAgent)) {
+            // Створюємо невидимий елемент на весь екран
+            var fsOverlay = document.createElement('div');
+            fsOverlay.style.position = 'absolute';
+            fsOverlay.style.top = '0';
+            fsOverlay.style.left = '0';
+            fsOverlay.style.width = '100%';
+            fsOverlay.style.height = '100%';
+            fsOverlay.style.zIndex = '9999'; // Розміщуємо поверх полотна гри
+            fsOverlay.style.backgroundColor = 'rgba(0,0,0,0)'; // Звсім прозорий
+
+            // Додаємо його на сторінку
+            document.body.appendChild(fsOverlay);
+
+            // Чекаємо на клік саме по цьому прозорому блоку
+            fsOverlay.addEventListener('click', function() {
+                var elem = document.documentElement;
+                
+                // Пробуємо розгорнути екран
+                if (!document.fullscreenElement && elem.requestFullscreen) {
+                    elem.requestFullscreen().catch(err => {
+                        console.log("Fullscreen помилка: " + err);
+                    });
+                }
+                
+                // Видаляємо оверлей назавжди, щоб він не блокував кнопки у грі
+                fsOverlay.remove();
+            });
+        }
 
         // To lower canvas resolution on mobile devices to gain some
         // performance, uncomment the following line:
