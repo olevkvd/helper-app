@@ -1,105 +1,114 @@
 {
   "users": [
-    { 
-      "pin": "YfqrhfobqCtyldsxNfUfhybqLheu", 
+    {
+      "pin": "YfqrhfobqCtyldsxNfUfhybqLheu",
       "id": "001",
-      "name": "Данііл", 
-      "roleName": "Старший сендвіч", 
+      "name": "Данііл",
+      "roleName": "Старший сендвіч",
       "roleId": 1,
       "employmentDate": "01.09.2025",
       "barcode": "3834805672",
-      "baseRate": 100.0
+      "baseRate": 100.0,
+      "birthDate": "28.12"
     },
-    { 
-      "pin": "Ytvyjuj<sctYjNfKflyj", 
+    {
+      "pin": "Ytvyjuj<sctYjNfKflyj",
       "id": "002",
-      "name": "Вова", 
-      "roleName": "Сендвіч-мейкер", 
+      "name": "Вова",
+      "roleName": "Сендвіч-мейкер",
       "roleId": 2,
       "employmentDate": "",
       "barcode": "zero",
-      "baseRate": 100.0
+      "baseRate": 100.0,
+      "birthDate": "27.08"
     },
-    { 
-      "pin": "Vfq,enysqKexibqCtyldsx", 
+    {
+      "pin": "Vfq,enysqKexibqCtyldsx",
       "id": "003",
-      "name": "Ростислав", 
-      "roleName": "Сендвіч-мейкер", 
+      "name": "Ростислав",
+      "roleName": "Сендвіч-мейкер",
       "roleId": 2,
       "employmentDate": "11.05.2026",
       "barcode": "3976702831",
-      "baseRate": 100.0
+      "baseRate": 100.0,
+      "birthDate": ""
     },
-    { 
-      "pin": "NbyxfcjdbqCtyldsx", 
+    {
+      "pin": "NbyxfcjdbqCtyldsx",
       "id": "004",
-      "name": "Міша", 
-      "roleName": "Сендвіч-мейкер", 
+      "name": "Міша",
+      "roleName": "Сендвіч-мейкер",
       "roleId": 2,
       "employmentDate": "24.06.2026",
       "barcode": "3973910877",
-      "baseRate": 100.0
+      "baseRate": 100.0,
+      "birthDate": ""
     },
-    { 
-      "pin": "YtgjufybqGjdfhtyjr", 
+    {
+      "pin": "YtgjufybqGjdfhtyjr",
       "id": "005",
-      "name": "Соня", 
-      "roleName": "Кухар", 
+      "name": "Соня",
+      "roleName": "Кухар",
       "roleId": 3,
       "employmentDate": "",
       "barcode": "zero",
-      "baseRate": 100.0
+      "baseRate": 100.0,
+      "birthDate": ""
     },
-    { 
-      "pin": "&&K@Y/#-Qy1U*B9$a*O9", 
+    {
+      "pin": "&&K@Y/#-Qy1U*B9$a*O9",
       "id": "006",
-      "name": "Олег", 
-      "roleName": "Кухар", 
+      "name": "Олег",
+      "roleName": "Кухар",
       "roleId": 4,
       "employmentDate": "01.09.2025",
       "barcode": "3692700419",
-      "baseRate": 100.0
+      "baseRate": 100.0,
+      "birthDate": "06.02"
     },
-    { 
-      "pin": "XthtpXehTvjwbjyfkmybqRfcbh", 
+    {
+      "pin": "XthtpXehTvjwbjyfkmybqRfcbh",
       "id": "007",
-      "name": "Ніка", 
-      "roleName": "Старший касир", 
+      "name": "Ніка",
+      "roleName": "Старший касир",
       "roleId": 5,
       "employmentDate": "01.09.2025",
       "barcode": "zero",
-      "baseRate": 100.0
+      "baseRate": 100.0,
+      "birthDate": "25.06"
     },
-    { 
-      "pin": "FGjlcvfnhbdfnmYtkmpzCfif", 
+    {
+      "pin": "FGjlcvfnhbdfnmYtkmpzCfif",
       "id": "008",
-      "name": "Саша", 
-      "roleName": "Касир", 
+      "name": "Саша",
+      "roleName": "Касир",
       "roleId": 5,
       "employmentDate": "",
       "barcode": "zero",
-      "baseRate": 100.0
+      "baseRate": 100.0,
+      "birthDate": ""
     },
-    { 
-      "pin": "RjkzLtqcnde'iJxtymGhtlcrfpe'vj", 
+    {
+      "pin": "RjkzLtqcnde'iJxtymGhtlcrfpe'vj",
       "id": "009",
-      "name": "Микола", 
-      "roleName": "Касир", 
+      "name": "Микола",
+      "roleName": "Касир",
       "roleId": 5,
       "employmentDate": "",
       "barcode": "3928609017",
-      "baseRate": 100.0
+      "baseRate": 100.0,
+      "birthDate": "24.07"
     },
-    { 
-      "pin": "CfvbqKexibqFlvsySYfqufhysifLsdxbyfECdsns", 
+    {
+      "pin": "CfvbqKexibqFlvsySYfqufhysifLsdxbyfECdsns",
       "id": "010",
-      "name": "Софа", 
-      "roleName": "Адміністратор", 
+      "name": "Софа",
+      "roleName": "Адміністратор",
       "roleId": 0,
       "employmentDate": "",
       "barcode": "zero",
-      "baseRate": 140.0
+      "baseRate": 140.0,
+      "birthDate": "13.06"
     }
   ]
 }
-
