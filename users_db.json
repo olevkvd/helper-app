@@ -37,12 +37,8 @@
       "pin": "NbyxfcjdbqCtyldsx",
       "id": "004",
       "name": "Міша",
-      "roleName": "Сендвіч-мейкер",
-      "roleId": 2,
+      "roleName": "звільнений",
       "employmentDate": "24.06.2026",
-      "barcode": "3973910877",
-      "baseRate": 100.0,
-      "birthDate": ""
     },
     {
       "pin": "YtgjufybqGjdfhtyjr",
@@ -60,7 +56,7 @@
       "id": "006",
       "name": "Олег",
       "roleName": "Кухар",
-      "roleId": 4,
+      "roleId": ,
       "employmentDate": "01.09.2025",
       "barcode": "3692700419",
       "baseRate": 100.0,
