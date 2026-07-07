@@ -73,7 +73,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Axio",
         productName: "Helper",
-        productVersion: "9.5",
+        productVersion: "9.6",
         showBanner: unityShowBanner,
       };
 
@@ -113,7 +113,7 @@
             fsOverlay.style.width = '100%';
             fsOverlay.style.height = '100%';
             fsOverlay.style.zIndex = '9999'; // Розміщуємо поверх полотна гри
-            fsOverlay.style.backgroundColor = 'rgba(0,0,0,0)'; // Звсім прозорий
+            fsOverlay.style.backgroundColor = 'rgba(0,0,0,0)'; // Зовсім прозорий
 
             // Додаємо його на сторінку
             document.body.appendChild(fsOverlay);
@@ -129,8 +129,16 @@
                     });
                 }
                 
-                // Видаляємо оверлей назавжди, щоб він не блокував кнопки у грі
-                fsOverlay.remove();
+                // ТЕПЕР ХОВАЄМО, А НЕ ВИДАЛЯЄМО
+                fsOverlay.style.display = 'none';
+            });
+
+            // Слухач: відстежуємо вихід із повноекранного режиму (згортання браузера, блокування тощо)
+            document.addEventListener('fullscreenchange', function() {
+                if (!document.fullscreenElement) {
+                    // Якщо повноекранний режим вимкнено, знову показуємо оверлей для першого кліку
+                    fsOverlay.style.display = 'block';
+                }
             });
         }
 
