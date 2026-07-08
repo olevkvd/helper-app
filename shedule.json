@@ -3,46 +3,73 @@
     {
       "id": "001",
       "startDate": "2026-07-08",
+      "endDate": "",
+      "vacationStart": "",
+      "vacationEnd": "",
       "cycleHours": [9.5, 9.5, 9.5, 9.5, 0, 0]
     },
     {
       "id": "002",
       "startDate": "2026-07-08",
+      "endDate": "",
+      "vacationStart": "",
+      "vacationEnd": "",
       "cycleHours": [9.5, 9.5, 0, 0, 9.5, 9.5]
     },
     {
       "id": "003",
       "startDate": "2026-07-08",
+      "endDate": "",
+      "vacationStart": "",
+      "vacationEnd": "",
       "cycleHours": [0, 0, 9.5, 9.5, 9.5, 9.5]
     },
     {
       "id": "005",
       "startDate": "2026-07-08",
+      "endDate": "",
+      "vacationStart": "",
+      "vacationEnd": "",
       "cycleHours": [0, 0, 0, 11, 9.5, 13.5, 13.5]
     },
     {
       "id": "006",
       "startDate": "2026-07-08",
+      "endDate": "",
+      "vacationStart": "",
+      "vacationEnd": "",
       "cycleHours": [13.5, 13.5, 13.5, 9.5, 11, 0, 0]
     },
     {
       "id": "007",
       "startDate": "2026-07-08",
+      "endDate": "",
+      "vacationStart": "",
+      "vacationEnd": "",
       "cycleHours": [9.5, 0, 0, 9.5, 9.5, 9.5]
     },
     {
       "id": "008",
       "startDate": "2026-07-08",
+      "endDate": "",
+      "vacationStart": "",
+      "vacationEnd": "",
       "cycleHours": [9.5, 9.5, 9.5, 0, 0, 9.5]
     },
     {
       "id": "009",
       "startDate": "2026-07-08",
+      "endDate": "",
+      "vacationStart": "",
+      "vacationEnd": "",
       "cycleHours": [0, 9.5, 9.5, 9.5, 9.5, 0]
     },
     {
       "id": "010",
       "startDate": "2026-07-08",
+      "endDate": "",
+      "vacationStart": "",
+      "vacationEnd": "",
       "cycleHours": [0, 0, 9.5, 9.5, 9.5, 9.5, 9.5]
     }
   ]
