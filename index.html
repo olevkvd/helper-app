@@ -80,7 +80,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Axio",
         productName: "Helper",
-        productVersion: "11.2",
+        productVersion: "11.3",
         showBanner: unityShowBanner,
       };
 
@@ -191,5 +191,17 @@
       }, true);
 
     </script>
+    <script>
+      // Реєстрація Service Worker для сповіщень
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('service-worker.js').then(function(registration) {
+            console.log('Service Worker зареєстровано:', registration.scope);
+          }).catch(function(err) {
+            console.error('Помилка реєстрації Service Worker:', err);
+          });
+        });
+      }
+      </script>
   </body>
 </html>
